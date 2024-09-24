@@ -5,7 +5,7 @@ import mediapipe as mp
 import numpy as np
 
 # Inicializa a comunicação serial -> UTILIZE A PORTA 'COM' CORRESPONDENTE
-arduino = serial.Serial(port='COM3', baudrate=9600, timeout=0.1)
+arduino = serial.Serial(port='COM6', baudrate=9600, timeout=0.1)
 
 # Inicializa o MediaPipe
 mp_hands = mp.solutions.hands
