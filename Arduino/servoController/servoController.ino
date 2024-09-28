@@ -49,7 +49,7 @@ void loop() {
     if (index == 5) {
       // Mapeia os valores recebidos de 0-100 para os ângulos correspondentes
       anguloPolegar = map(valores[0], 0, 100, 100, 75);
-      anguloIndicador = map(valores[1], 0, 100, 50, 100);
+      anguloIndicador = map(valores[1], 0, 100, 80, 120);
       anguloMedio = map(valores[2], 0, 100, 110, 55);
       anguloAnelar = map(valores[3], 0, 100, 110, 60);
       anguloMinimo = map(valores[4], 0, 100, 135, 70);
