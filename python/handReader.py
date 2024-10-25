@@ -48,7 +48,7 @@ def sendList(aberturaDedos: list, arduino: serial.Serial) -> None:
 
 # Capturando a imagem da webcam
 cap = cv2.VideoCapture(0)
-
+ 
 # Verifica se a câmera foi aberta corretamente
 if not cap.isOpened():
     print("Erro ao abrir a câmera.")
